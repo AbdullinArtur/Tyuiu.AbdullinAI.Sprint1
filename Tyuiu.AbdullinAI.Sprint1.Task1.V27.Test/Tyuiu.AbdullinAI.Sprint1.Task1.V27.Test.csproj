@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{491EAB46-A19C-402A-A5D0-763834BDAD2C}</ProjectGuid>
+    <ProjectGuid>{DA212414-2927-41A0-8F3B-13E736A16E96}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.AbdullinAI.Sprint1.Task0.V11.Test</RootNamespace>
-    <AssemblyName>Tyuiu.AbdullinAI.Sprint1.Task0.V11.Test</AssemblyName>
+    <RootNamespace>Tyuiu.AbdullinAI.Sprint1.Task1.V27.Test</RootNamespace>
+    <AssemblyName>Tyuiu.AbdullinAI.Sprint1.Task1.V27.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.AbdullinAI.Sprint1.Task0.V11.Lib\Tyuiu.AbdullinAI.Sprint1.Task0.V11.Lib.csproj">
-      <Project>{f16a766a-8be2-4a6e-8c7e-d1dbdbb8ca2f}</Project>
-      <Name>Tyuiu.AbdullinAI.Sprint1.Task0.V11.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.AbdullinAI.Sprint1.Task1.V27.Lib\Tyuiu.AbdullinAI.Sprint1.Task1.V27.Lib.csproj">
+      <Project>{4b79c5f9-78f5-4b19-9b01-69efdf344509}</Project>
+      <Name>Tyuiu.AbdullinAI.Sprint1.Task1.V27.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
