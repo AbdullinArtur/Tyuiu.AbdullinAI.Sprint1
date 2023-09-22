@@ -51,8 +51,9 @@ namespace Tyuiu.AbdullinAI.Sprint1.Task2.V22
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.Write("Среднее значение: ");
-            Console.WriteLine(ds.CalculateAVGValue(x, y, z));
+            var с = ds.CalculateAVGValue(x, y, z);
+
+            Console.WriteLine($"Среднее значение: {с}");
             Console.ReadKey();
         }
     }
