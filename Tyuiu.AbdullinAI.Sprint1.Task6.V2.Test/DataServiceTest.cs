@@ -13,7 +13,7 @@ namespace Tyuiu.AbdullinAI.Sprint1.Task6.V2.Test
             DataService ds = new DataService();
             string x = "Привет друзья!";
             var res = ds.CheckHello(x);
-            Assert.AreEqual(res, false);
+            Assert.AreEqual(res, false); 
 
 
         }
