@@ -47,6 +47,21 @@ namespace Tyuiu.AbdullinAI.Sprint1.Task6.V2
             {
                 Console.WriteLine("В вашей строке не содержится слово 'Hello' ");
             }
+            
+
+            int a = 0, b = 0;
+
+            b = Convert.ToInt32(Console.ReadLine());
+
+            a = b + 1;
+
+            Console.WriteLine(b * b)
+
+            return;
+
+            Console.WriteLine(a);
+
+            
 
             Console.ReadKey();
 
